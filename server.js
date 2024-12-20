@@ -2,7 +2,7 @@ const express = require("express");
 const Stripe = require("stripe");
 
 // Initialize Stripe
-const stripe = new Stripe("sk_test_MxSnz9ROWbONvVnVmTpPDcNf", {
+const stripe = new Stripe("API_KEY", {
   apiVersion: "2024-04-10; custom_checkout_beta=v1",
 });
 

@@ -2,7 +2,7 @@ import { Application, Router } from "https://deno.land/x/oak@v12.5.0/mod.ts";
 import Stripe from "npm:stripe";
 
 // Initialize Stripe
-const stripe = new Stripe("sk_test_MxSnz9ROWbONvVnVmTpPDcNf", {
+const stripe = new Stripe("API_KEY", {
   apiVersion: "2018-02-28; custom_checkout_beta=v1" as any,
 });
 
