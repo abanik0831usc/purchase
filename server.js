@@ -6,10 +6,6 @@ const stripe = new Stripe("API_KEY", {
   apiVersion: "2024-04-10; custom_checkout_beta=v1",
 });
 
-// const stripe = new Stripe("sk_test_MxSnz9ROWbONvVnVmTpPDcNf", {
-//   apiVersion: "2018-02-28; custom_checkout_beta=v1",
-// });
-
 // Create an Express application
 const app = express();
 app.use(express.json());
